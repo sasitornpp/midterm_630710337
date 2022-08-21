@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:midterm_630710337/midterm.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: TempConvert(),
     );
   }
 }
